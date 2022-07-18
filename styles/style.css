@@ -94,3 +94,32 @@ hr {
     width: 224px;
     height: 104px;
 }
+
+.course-author a {
+    text-decoration: none;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #ffc014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.course-duration {
+    background: rgb(248, 220, 220);
+    color: #ED6B4F;
+    padding: 5px;
+    border-radius: 25px;
+}
